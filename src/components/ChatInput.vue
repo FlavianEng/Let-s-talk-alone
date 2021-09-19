@@ -21,7 +21,8 @@
       id="chatInputSendBtn"
       v-show="isExtended"
       class="absolute top-0 right-5 z-10 border-0 font-bold h-full"
-      @click.stop.prevent="sendMessage"
+      @click="sendMessage"
+      @touchstart="sendMessage"
     >
       Send
     </button>
