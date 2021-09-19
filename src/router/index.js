@@ -1,15 +1,15 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 // const LostInTheVoid = () => import("");
-const Hello = () => import("../views/Hello.vue");
-const Dino = () => import("../views/Dino.vue");
+const Chat = () => import("../views/Chat.vue");
+const Home = () => import("../views/Home.vue");
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: "/", redirect: "/home" },
-    { path: "/home", component: Dino },
-    { path: "/hello", name: "hello", component: Hello, props: true },
+    { path: "/home", component: Home },
+    { path: "/hello", name: "hello", component: Chat, props: true },
     // { path: "*", component: LostInTheVoid },
   ],
 });

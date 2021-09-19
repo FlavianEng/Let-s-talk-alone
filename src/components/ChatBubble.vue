@@ -1,9 +1,9 @@
 <template>
   <div
-    class="min-w-10 max-w-1/2 px-2 py-5 my-4 rounded-2xl"
+    class="min-w-10 max-w-1/2 py-3 p-4 my-2 rounded-2xl shadow"
     :class="[isLeftSide ? 'bg-blue-100 mr-auto' : 'bg-pink-100 ml-auto']"
   >
-    <div class="text-4xl flex justify-center items-center">
+    <div class="text-xl align-middle break-words">
       {{ message }}
     </div>
   </div>
