@@ -1,1 +1,1 @@
-**Let's waste some time ! ** 🤘🏾
+**Let's waste some time !** 🤘🏾
