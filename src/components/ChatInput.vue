@@ -15,6 +15,7 @@
       placeholder="Message..."
       @focus="inputIsFocused"
       @blur="inputIsBlurred"
+      @keyup.enter="sendMessage"
       ref="chatInput"
     />
     <button
